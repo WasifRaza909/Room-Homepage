@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Spartan", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-flex {
+  display: flex;
+}
+
+.home-img-nav {
+  width: 56%;
+  height: 65vh;
+}
+
+.slider-arrows {
+  width: 44%;
+  height: 65vh;
+}
+
+.home-img {
+  height: 65vh;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-items {
+  padding-right: 2rem;
+}
+
+.nav-list-items a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.brand-name {
+  margin-right: 4rem;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.slider-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  min-width: 80%;
+  margin-top: 10rem;
+}
+
+.slider-section h1 {
+  font-size: 48px;
+}
+
+.slider-section p {
+  font-size: 12px;
+}
+
+.arrows-section {
+  position: absolute;
+  right: 432px;
+  top: 540px;
+}
+
+.arrows {
+  background-color: #000000;
+  width: 187px;
+  height: 45px;
+}
+
+/* lower section */
+.lower-section-flex {
+  display: flex;
+}
+
+.lower-flex-img-1 {
+  width: 30%;
+}
+
+.lower-section-flex div {
+  width: 40%;
+}
+
+.lower-flex-img-2 {
+  width: 30%;
+}
